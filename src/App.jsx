@@ -5,6 +5,7 @@ import Categories from './components/Categories';
 import FeatureSection from './components/FeatureSection';
 import FeatureSectionBreakFast from './components/FeatureSectionBreakFast';
 import Banner from './components/Banner';
+import BlogSection from './components/BlogSection';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <FeatureSection />
       <FeatureSectionBreakFast />
       <Banner />
+      <BlogSection />
     </main>
   );
 };
