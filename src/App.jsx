@@ -6,6 +6,7 @@ import FeatureSection from './components/FeatureSection';
 import FeatureSectionBreakFast from './components/FeatureSectionBreakFast';
 import Banner from './components/Banner';
 import BlogSection from './components/BlogSection';
+import NewsLetter from './components/NewsLetter';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <FeatureSectionBreakFast />
       <Banner />
       <BlogSection />
+      <NewsLetter />
     </main>
   );
 };
