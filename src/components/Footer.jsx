@@ -6,7 +6,6 @@ import {
   LiaShippingFastSolid,
 } from 'react-icons/lia';
 import { FooterCard } from './FooterCard';
-
 const Footer = () => {
   const data = [
     {
