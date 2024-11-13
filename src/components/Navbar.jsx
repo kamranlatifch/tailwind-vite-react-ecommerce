@@ -2,7 +2,6 @@ import React from 'react';
 import { AiOutlineShoppingCart, AiOutlineUser } from 'react-icons/ai';
 import { BsSearch } from 'react-icons/bs';
 import { CartCountBadge } from './CartCountBadge';
-
 export const Navbar = () => {
   return (
     <div className='container hidden lg:block'>

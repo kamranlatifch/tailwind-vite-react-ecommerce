@@ -1,6 +1,5 @@
 import React from 'react';
 import BlogCard from './BlogCard';
-
 const BlogSection = () => {
   const data = [
     {

@@ -1,6 +1,5 @@
 import React from 'react';
 import FeatureProductCard from './FeatureProductCard';
-
 const FeatureSectionBreakFast = () => {
   const data = [
     {

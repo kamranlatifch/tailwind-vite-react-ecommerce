@@ -1,5 +1,4 @@
 import React from 'react';
-
 const BlogCard = ({ img, title, date, comment }) => {
   return (
     <div className='space-y-4'>

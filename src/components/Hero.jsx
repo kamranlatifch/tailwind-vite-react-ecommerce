@@ -1,6 +1,5 @@
 import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
-
 const Hero = () => {
   return (
     <div className='container pt-8'>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { LuMailOpen } from 'react-icons/lu';
-
 const NewsLetter = () => {
   return (
     <div className='bg-accentDark mt-16'>
