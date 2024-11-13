@@ -1,5 +1,4 @@
 import React from 'react';
-
 const CategoryCard = ({ img, name, count }) => {
   return (
     <div className='border border-gray-200 hover:border-gray-300 hover:scale-105 transition-transform rounded-lg'>

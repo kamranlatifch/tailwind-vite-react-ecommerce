@@ -31,34 +31,6 @@ const FeatureSection = () => {
       img: '/product__4.webp',
       rating: 4,
     },
-    // {
-    //   id: 4,
-    //   name: 'Fishes',
-    //   price: '$ 200',
-    //   img: '/product__3.webp',
-    //   rating: 4,
-    // },
-    // {
-    //   id: 5,
-    //   name: 'Eggs & Dairy',
-    //   price: '$ 170',
-    //   img: '/product__4.webp',
-    //   rating: 4,
-    // },
-    // {
-    //   id: 6,
-    //   name: 'Soft Drinks',
-    //   price: '$ 166',
-    //   img: '/product__2.webp',
-    //   rating: 4,
-    // },
-    // {
-    //   id: 7,
-    //   name: 'Dry Fruits',
-    //   price: '$ 189.99',
-    //   img: '/product__1.webp',
-    //   rating: 4,
-    // },
   ];
   return (
     <div className='container pt-16'>

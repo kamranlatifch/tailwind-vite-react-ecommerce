@@ -1,6 +1,5 @@
 import React from 'react';
 import { AiFillStar, AiOutlineShopping } from 'react-icons/ai';
-
 const FeatureProductCard = ({ img, name, price, rating = 4 }) => {
   return (
     <div className='border border-gray-200 hover:border-gray-300 hover:scale-105 transition-transform rounded-lg relative'>

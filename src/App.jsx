@@ -8,7 +8,6 @@ import Banner from './components/Banner';
 import BlogSection from './components/BlogSection';
 import NewsLetter from './components/NewsLetter';
 import Footer from './components/Footer';
-
 const App = () => {
   return (
     <main>

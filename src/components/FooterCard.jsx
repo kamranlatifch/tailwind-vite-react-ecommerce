@@ -1,5 +1,4 @@
 import React from 'react';
-
 export const FooterCard = ({ title, icon }) => {
   return (
     <div className='flex items-center gap-4'>
