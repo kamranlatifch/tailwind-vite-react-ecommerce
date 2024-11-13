@@ -27,13 +27,20 @@ const Footer = () => {
     },
   ];
   return (
-    <div className='container pt-16'>
-      <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4 justify-center'>
-        {data?.map((item, index) => (
-          <FooterCard title={item?.title} icon={item?.icon} />
-        ))}
+    <>
+      <div className='container pt-16'>
+        <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4 justify-center'>
+          {data?.map((item, index) => (
+            <FooterCard key={index} title={item?.title} icon={item?.icon} />
+          ))}
+        </div>
       </div>
-    </div>
+      <div className='border-t border-gray-300 mt-16'>
+        <div className='container text-center text-gray-500 py-4'>
+          &copy; Copyright @KLC-Dev 2024
+        </div>
+      </div>
+    </>
   );
 };
 
