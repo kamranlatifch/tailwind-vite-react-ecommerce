@@ -47,9 +47,9 @@ const Categories = () => {
     },
     {
       id: 7,
-      name: 'Fresh Fruits',
+      name: 'Dry Fruits',
       count: '9 Products',
-      img: '/category__8.webp',
+      img: '/category__1.webp',
     },
   ];
   return (

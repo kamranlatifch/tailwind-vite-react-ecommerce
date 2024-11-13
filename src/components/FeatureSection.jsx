@@ -1,6 +1,65 @@
 import React from 'react';
+import FeatureProductCard from './FeatureProductCard';
 
 const FeatureSection = () => {
+  const data = [
+    {
+      id: 0,
+      name: 'Dried Mango',
+      price: '$ 100',
+      rating: 4,
+      img: '/product__1.webp',
+    },
+    {
+      id: 1,
+      name: 'Crunchy Chips',
+      price: '$ 200',
+      img: '/product__2.webp',
+      rating: 5,
+    },
+    {
+      id: 2,
+      name: 'Jewel Cranberries',
+      price: '$ 130',
+      img: '/product__3.webp',
+      rating: 4,
+    },
+    {
+      id: 3,
+      name: 'Almond Organic',
+      price: '$ 109',
+      img: '/product__4.webp',
+      rating: 4,
+    },
+    // {
+    //   id: 4,
+    //   name: 'Fishes',
+    //   price: '$ 200',
+    //   img: '/product__3.webp',
+    //   rating: 4,
+    // },
+    // {
+    //   id: 5,
+    //   name: 'Eggs & Dairy',
+    //   price: '$ 170',
+    //   img: '/product__4.webp',
+    //   rating: 4,
+    // },
+    // {
+    //   id: 6,
+    //   name: 'Soft Drinks',
+    //   price: '$ 166',
+    //   img: '/product__2.webp',
+    //   rating: 4,
+    // },
+    // {
+    //   id: 7,
+    //   name: 'Dry Fruits',
+    //   price: '$ 189.99',
+    //   img: '/product__1.webp',
+    //   rating: 4,
+    // },
+  ];
   return (
     <div className='container pt-16'>
       <div className='lg:flex justify-between items-start'>
@@ -24,8 +83,23 @@ const FeatureSection = () => {
 
       <div className='grid sm:grid-cols-2 md:grid-cols-4  lg:grid-cols-5 pt-8 gap-2'>
         <div className=''>
-          <img src='/feature__1.webp' alt='banner' />
+          <img
+            className='h-full w-full object-cover'
+            src='/feature__1.webp'
+            alt='banner'
+          />
         </div>
+        {data?.map((item, index) => {
+          return (
+            <FeatureProductCard
+              key={item?.id}
+              img={item?.img}
+              name={item?.name}
+              price={item?.price}
+              rating={item.rating}
+            />
+          );
+        })}
       </div>
     </div>
   );
